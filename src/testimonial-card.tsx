@@ -4,7 +4,7 @@ export const TestimonialCard = () => {
       <header className="flex gap-4">
         <img
           className="h-12 w-12"
-          src="/profile-thumbnail.png"
+          src="/testimonial-card/profile-thumbnail.png"
           alt="Photo of Sarah Doe"
         />
 
