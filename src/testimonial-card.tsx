@@ -1,6 +1,6 @@
 export const TestimonialCard = () => {
   return (
-    <article className="mt-[200px] flex w-[340px] flex-col gap-4 self-start rounded-lg bg-white p-6">
+    <article className="mt-[200px] flex w-[340px] flex-col gap-4 self-start rounded-lg bg-white p-6 [box-shadow:0px_1px_3px_0px_rgba(0,_0,_0,_10%),_0px_1px_2px_-1px_rgba(0,_0,_0,_10%)]">
       <header className="flex gap-4">
         <img
           className="h-12 w-12"
