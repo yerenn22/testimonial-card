@@ -4,12 +4,12 @@ export const TestimonialCard = () => {
       <header className="flex gap-4">
         <img
           className="h-12 w-12"
-          src="/testimonial-card/profile-thumbnail.png"
+          src="/testimonial-card/profile-thumbnail.webp"
           alt="Photo of Sarah Doe"
         />
 
         <div>
-          <h3 className="font-body mb-[1px] text-lg font-semibold text-neutral-900">
+          <h3 className="mb-[1px] font-body text-lg font-semibold text-neutral-900">
             Sarah Dole
           </h3>
           <p className="font-body text-sm text-neutral-600">@sarahdole</p>

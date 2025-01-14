@@ -1,3 +1,5 @@
+import { default as defaultTheme } from "tailwindcss/defaultTheme";
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./src/**/*.{js,ts,jsx,tsx}"],
@@ -5,7 +7,7 @@ export default {
     extend: {},
 
     fontFamily: {
-      body: ['"Noto Sans"'],
+      body: ["Noto Sans", ...defaultTheme.fontFamily.sans],
     },
   },
   plugins: [],
